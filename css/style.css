@@ -165,13 +165,13 @@ p {
 /* Verses Container */
 .verses-container {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 0;
     width: 100%;
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 2%;
     box-sizing: border-box;
     pointer-events: none;
     z-index: 10;
@@ -179,20 +179,25 @@ p {
 
 .verse-box {
     pointer-events: auto;
-    flex: 0 0 320px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--text-color);
-    font-size: 2.2rem;
-    font-weight: 800;
+    font-size: 3rem;
+    /* VERY BIG - 3rem */
+    font-weight: 900;
     font-family: 'Amiri', 'Georgia', serif;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+    line-height: 1.3;
 }
 
 .verse-line {
-    margin: 8px 0;
-    white-space: nowrap;
+    margin: 10px 0;
+    white-space: normal;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -207,8 +212,7 @@ p {
     }
 
     .verse-box {
-        width: 100%;
-        flex: auto;
-        font-size: 1.6rem;
+        max-width: 90%;
+        font-size: 2rem;
     }
 }
