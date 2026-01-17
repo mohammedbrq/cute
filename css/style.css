@@ -166,13 +166,17 @@ p {
 .verses-container {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* perfectly center */
     width: 100%;
-    transform: translateY(-50%);
+    /* Full width to allow centering within it */
     display: flex;
-    justify-content: space-between;
-    padding: 0 2%;
-    box-sizing: border-box;
+    justify-content: center;
+    /* Push items to center */
+    gap: 450px;
+    /* Gap slightly larger than image width (400px) */
     pointer-events: none;
     z-index: 10;
 }
