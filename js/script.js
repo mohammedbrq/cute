@@ -96,8 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 leftVerses.className = 'verse-box verses-left';
                 const leftLine1 = document.createElement('div');
                 leftLine1.className = 'verse-line';
-                leftLine1.textContent = '‏فتَبَسَّمي كي تُشرِقَ الأضواءُ
-';
+                leftLine1.textContent = '‏فتَبَسَّمي كي تُشرِقَ الأضواءُ';
                 const leftLine2 = document.createElement('div');
                 leftLine2.className = 'verse-line';
                 leftLine2.textContent = 'خُلُقًا وخَلْقًا في النِّساء حَسناءُ';
@@ -300,5 +299,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     renderStep(0);
 });
+
 
 
