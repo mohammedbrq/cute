@@ -84,10 +84,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 rightVerses.className = 'verse-box verses-right';
                 const rightLine1 = document.createElement('div');
                 rightLine1.className = 'verse-line';
-                rightLine1.textContent = 'لو مالَ قلبي عن هواك نزعتهُ';
+                rightLine1.textContent = '‏النُّورُ أنتِ، وغَيرُكِ الظَّلْماءُ';
                 const rightLine2 = document.createElement('div');
                 rightLine2.className = 'verse-line';
-                rightLine2.textContent = 'وشريتُ قلباً في هواك يذوبُ';
+                rightLine2.textContent = '‏فتَبَسَّمي كي تُشرِقَ الأضواءُ';
                 rightVerses.appendChild(rightLine1);
                 rightVerses.appendChild(rightLine2);
 
@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 leftVerses.className = 'verse-box verses-left';
                 const leftLine1 = document.createElement('div');
                 leftLine1.className = 'verse-line';
-                leftLine1.textContent = 'آياتُ حبُّكَ في فؤادي أُحكمت';
+                leftLine1.textContent = '‏يا آيةً في الحُسْنِ ليس كمثلِها';
                 const leftLine2 = document.createElement('div');
                 leftLine2.className = 'verse-line';
-                leftLine2.textContent = 'من قال أنِّي عن هواكَ أتوبُ؟';
+                leftLine2.textContent = 'خُلُقًا وخَلْقًا في النِّساء حَسناءُ';
                 leftVerses.appendChild(leftLine1);
                 leftVerses.appendChild(leftLine2);
 
@@ -299,3 +299,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     renderStep(0);
 });
+
